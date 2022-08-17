@@ -16,6 +16,7 @@ public class TestServlet extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
 		System.out.println("Master에서 commit");
+		System.out.println("Hotfix에서 commit");
 		
 	}
 
